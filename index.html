@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POGODA</title>
+    <script src="api.js" defer></script>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <button id="butbrest"> BREST Pogoda</button>
+    <hr>
+    <div id="otvet">
+
+    </div>
+
+ <form action="">
+     <label for="gorod">введитк город</label>
+     <input type="text" id="gorod">
+     <input type="button" value="Отправить" id="poiskbut">
+ </form>
+<div id="otvet2">
+
+</div>
+   <br>
+       <br>
+<div>
+     <label for="userLogin">Введите логин пользователя GitHub:</label>
+    <input type="text" id="userLogin" />
+    <button onclick="getUserInfo()">Поиск</button>
+
+    <!-- Элементы для вывода информации -->
+    <img id="photo" style="display: none;" />
+    <p id="name" style="display: none;"></p>
+    <p id="login" style="display: none;"></p>
+    <a id="githubLink" href="#" style="display: none;"></a>
+</div>
+
+</body>
+</html>

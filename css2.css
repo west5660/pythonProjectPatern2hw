@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#butbrest {
+    background-color: #3498db;
+    color: #fff;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#poiskbut {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+}
+
+#otvet2 table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#otvet2 th, #otvet2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#otvet2 th {
+    background-color: #f2f2f2;
+}
+
+#photo {
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+#name, #login {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#githubLink {
+    color: #3498db;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#githubLink:hover {
+    text-decoration: underline;
+}
